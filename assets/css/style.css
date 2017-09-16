@@ -78,9 +78,11 @@ footer {
     border-top-color: teal;
     border-top-width: 5px;
     border-top-style: solid;
+    line-height: 50px;
 }
 #my-pic {
     float: left;
+    transform: rotate(-90deg);
 }
 .icon-contanier {
     text-align: center;
@@ -97,7 +99,6 @@ footer {
     min-height: 100%;
     margin-left: auto;
     margin-right: auto;
-    
 }
 hr {
     margin: 10px;
@@ -107,12 +108,15 @@ img {
 }
 p {
     line-height: 1.5;
+    margin: 10px;
 }
 a:visited {
     text-decoration: none;
+    color: #777777
 }
 a {
     text-decoration: none;
+    color: #777777
 }
 #portfolio {
     border-left-color: grey;
