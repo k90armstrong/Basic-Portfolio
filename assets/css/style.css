@@ -21,6 +21,7 @@ section {
 .left-section {
     width: 70%;
     float: left;
+    overflow: visible;
 }
 .right-section {
     width: 20%;
@@ -99,16 +100,18 @@ footer {
     min-height: 100%;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
 }
 hr {
     margin: 10px;
 }
 img {
-    margin: 10px;
+    margin: 20px;
 }
 p {
     line-height: 1.5;
     margin: 10px;
+    height: 320px;
 }
 a:visited {
     text-decoration: none;
@@ -125,4 +128,9 @@ a {
     border-right-color: grey;
     border-right-style: solid;
     border-right-width: 1px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
