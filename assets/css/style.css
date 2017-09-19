@@ -83,7 +83,6 @@ footer {
 }
 #my-pic {
     float: left;
-    transform: rotate(-90deg);
 }
 .icon-contanier {
     text-align: center;
