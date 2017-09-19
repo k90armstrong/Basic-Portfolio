@@ -136,3 +136,30 @@ a {
     display: block;
     clear: both;
 }
+/* This is all of the form styling */
+label {
+    display: block;
+    margin: 10px;
+    width: 70%;
+}
+input {
+    display: block;
+    margin: 10px;
+    width: 95%;
+}
+textarea {
+    display: block;
+    margin: 10px;
+    width: 95%;
+}
+button {
+    background-color: teal;
+    margin: 10px;
+    color: white;
+}
+.img-title {
+    position: relative;
+    bottom: 50px;
+    background-color: teal;
+    opacity: 0.5;
+}
