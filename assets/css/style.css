@@ -50,11 +50,12 @@ h2 {
 h3 {
     font-size: 18px;
 }
-links {
+.nav-links {
     float: right;
+    margin-right: 150px;
 }
 li {
-    float: left;
+    float: right;
     padding-left: 10px;
     padding-right: 10px;
     margin: 20px 0px 10px 0px;
@@ -83,6 +84,9 @@ footer {
 }
 #my-pic {
     float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .icon-contanier {
     text-align: center;
@@ -107,9 +111,6 @@ footer {
 
 hr {
     margin: 10px;
-}
-img {
-    margin: 20px;
 }
 p {
     line-height: 1.5;
@@ -156,10 +157,26 @@ button {
     background-color: teal;
     margin: 10px;
     color: white;
+    border: none;
+    padding: 10px 25px;
 }
+
+/* this is the portfolio styling */
 .img-title {
     position: relative;
-    bottom: 50px;
+    bottom: 70px;
     background-color: teal;
-    opacity: 0.5;
+    opacity: 0.75;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.image-container{
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    padding: 18px;
+    margin: 0px;
+    float: left;
+
 }
