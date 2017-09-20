@@ -64,12 +64,16 @@ li {
     background-color: teal;
     color: white;
     width: 300px;
+    left: 0px;
+    top: 0px;
     text-align: center;
     height: 50px;
     float: left;
     margin-right: 300px;
     margin-left: 170px;
     padding-top: 10px;
+    transition: left 1s, top 1s;
+    position: static;
 }
 footer {
     width: 100%;
@@ -179,4 +183,15 @@ button {
     margin: 0px;
     float: left;
 
+}
+/* header fix and rotate classes */
+.fix {
+    position: fixed;
+    top: 120px;
+    left: -290px;
+    width: 300px;
+    transition: left 1s, top 1s;
+}
+.rotate {
+    transform: rotate(-90deg);
 }
