@@ -65,15 +65,18 @@ li {
     color: white;
     width: 300px;
     left: 0px;
-    top: 0px;
+    top: 10px;
     text-align: center;
     height: 50px;
     float: left;
     margin-right: 300px;
     margin-left: 170px;
     padding-top: 10px;
-    transition: left 1s, top 1s;
-    position: static;
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.35, 1.44);
+    transform: none;
+    z-index: 100;
+    position: fixed;
 }
 footer {
     width: 100%;
@@ -182,16 +185,16 @@ button {
     padding: 18px;
     margin: 0px;
     float: left;
+    cursor: pointer;
 
 }
 /* header fix and rotate classes */
 .fix {
     position: fixed;
+    transform: rotate(-90deg);
     top: 120px;
     left: -290px;
     width: 300px;
-    transition: left 1s, top 1s;
-}
-.rotate {
-    transform: rotate(-90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.35, 1.44);
 }
