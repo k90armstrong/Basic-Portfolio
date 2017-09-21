@@ -166,6 +166,7 @@ button {
     color: white;
     border: none;
     padding: 10px 25px;
+    cursor: pointer;
 }
 
 /* this is the portfolio styling */
